@@ -1,0 +1,38 @@
+.wrapper{
+	width: 210px;
+	margin: auto;
+	box-shadow:1px 1px 7px 1px rgba(0,0,0,0.2);
+	padding: 20px;
+}
+.button{
+	height: 50px;
+	width: 50px;
+	border: 1px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	font-family: 'Arial';
+}
+.button:hover ,.button1:hover{
+	background: #ccc;
+	font-weight: bold;
+}
+.button1{
+	height: 50px;
+	width: 102px;
+	border: 1px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btnwrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+.myinput{
+	height: 50px;
+	width: 200px;
+	border: 2px solid red;
+	text-align: right;
+}
